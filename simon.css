@@ -1,0 +1,41 @@
+#head,#level{
+    text-align: center;
+}
+#box{
+    height: 150%;
+    width: 50%;
+    margin: auto;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+    grid-gap: 15px;
+    
+}
+#btns{
+    display: flex;
+    justify-content: center;
+}
+#head,#submit{
+    border-radius: 12px;
+    height: 35px;
+    width: 15%;
+    margin: 15px;
+}
+.but{
+    height: 120px;
+    border-radius: 10px;
+}
+#red{
+    background-color: rgb(152, 59, 59);
+}
+#green{
+    background-color: rgb(18, 141, 18);
+}
+#violet{
+    background-color: rgb(123, 38, 203);
+}
+#orange{
+    background-color: rgb(174, 126, 39);}
+.badlo{
+    background-color:white !important;
+}
